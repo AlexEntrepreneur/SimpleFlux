@@ -1,0 +1,20 @@
+{
+  "name": "simpleflux",
+  "version": "1.0.0",
+  "description": "A way to organise simple vanilla javascript components inspired by the Flux architecture.",
+  "keywords": ["flux", "react", "simpleflux", "vanilla", "components"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexEntrepreneur/SimpleFlux.git"
+  },
+  "author": "AlexEntrepreneur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexEntrepreneur/SimpleFlux/issues"
+  },
+  "homepage": "https://github.com/AlexEntrepreneur/SimpleFlux#readme"
+}
