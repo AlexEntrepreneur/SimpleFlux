@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/cjs",
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "composite": true,
+  }
+}

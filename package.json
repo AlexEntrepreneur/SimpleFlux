@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "A way to organise simple vanilla javascript components inspired by the Flux architecture.",
   "keywords": ["flux", "react", "simpleflux", "vanilla", "components"],
-  "main": "index.js",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "unpkg": "dist/umd/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project tsconfig-es6.json && tsc --project tsconfig-cjs.json && tsc --project tsconfig-umd.json"
   },
   "repository": {
     "type": "git",
